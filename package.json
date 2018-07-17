@@ -1,0 +1,20 @@
+{
+  "name": "brasileirao",
+  "version": "1.0.0",
+  "description": "Webcrawler na pagina do Brasileirão do globo.com",
+  "main": "lib/brasileirao.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brasileirão",
+    "campeonato",
+    "brasileiro"
+  ],
+  "author": "Leonardo Alves",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.87.0"
+  }
+}
