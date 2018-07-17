@@ -11,13 +11,12 @@ var brasileirao = require('brasileirao');
 brasileirao.tabela().then(val => {
     var tabela = val;
     console.log(tabela);
-});
-
-//Pegar as informações sobre a primeira rodada do Brasileirão 2018, passar como parâmetro o número refente a rodada
+}).catch(err => console.error(err));
+//Pegar as informações sobre a primeira rodada do Brasileirão 2018
 brasileirao.rodada(1).then(val =>{
     var resultados = val;
     console.log(resultados);
-});
+}).catch(err => console.error(err));
 ```
 
 ### Dependencies
